@@ -1,0 +1,223 @@
+<!--Container Div Start-->
+<div class="container">
+  
+<!-- Start Header -->  
+  <header class="header">
+    <h1 id="title" class="text-center">Alpha Sigma Phi Brother Survey</h1>
+    <p id="description" class="description text-center">
+      Please take a few minutes to complete this as it greatly helps us make plans for the future</p>
+<!-- End Header -->
+  </header>
+  
+<!-- Start Form -->
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input 
+             type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Enter your name"
+             required
+             />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Enter a vaild Email"
+             required
+             />
+          </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+             >Age<span class="clue">(optional)</span></label>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="17"
+        max="50"
+        class="form-control"
+        placeholder="Age"
+             />
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your acadmeic standing?<p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select</option>
+        <option
+                value="Freshman">Freshman yr 1</option>
+         <option value="Sophmore">Sophmore yr 2</option>
+        <option value="Junior">Junior yr 3</option>
+        <option value="Senior yr 4">Senior yr 4</option>
+        <option value="yr 5+">yr 5+</option>
+        </select>
+    </div>
+<div class="form-group">
+  <p>Would you reccomend others to join our fraternity?</p>
+   <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />No</label
+      >
+    </div>
+  
+    <div class="form-group">
+      <p>
+        What is your favorite aspect of our fraternity?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="brotherhood">Brotherhood</option>
+        <option value="retreats">Retreats</option>
+        <option value="community">Community</option>
+        <option value="formal">Formal</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>
+        What would you like to see improved?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="community-service"
+          type="checkbox"
+          class="input-checkbox"
+        />Community Service</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="pilanthropy-pojects"
+          type="checkbox"
+          class="input-checkbox"
+        />Philanthropy Projects</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="alumni-relationships"
+          type="checkbox"
+          class="input-checkbox"
+        />Alumni Relationships</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="structure"
+          type="checkbox"
+          class="input-checkbox"
+        />Structure</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Documentation"
+          type="checkbox"
+          class="input-checkbox"
+        />Documentation</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="academic-resources"
+          type="checkbox"
+          class="input-checkbox"
+        />Academic Resources</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="mentorship"
+          type="checkbox"
+          class="input-checkbox"
+        />Mentorship</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="city-meetups"
+          type="checkbox"
+          class="input-checkbox"
+        />City Meetups</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="accountability"
+          type="checkbox"
+          class="input-checkbox"
+        />Accountability</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="forum"
+          type="checkbox"
+          class="input-checkbox"
+        />Forum</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="additional-professional-resources"
+          type="checkbox"
+          class="input-checkbox"
+        />Additional Professional Resources</label
+      >
+    </div>
+    
+    <div class="form-group">
+      <p>Add you thoughts below.</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+    
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+<!-- End Form -->
+  </form>
+<!-- Container Div End -->
+</div>
+
+<!-- FCC Test Tool -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
